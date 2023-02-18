@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib>
 #include <time.h>
 /**
  * main - Entry
@@ -12,14 +12,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
+		printf("%d in negative\n", n);
 	else
+	if (n > 0)
 		printf("%d is positive\n", n);
+	else
+	if (n == 0)
+		printf("5d is zero\n", n);
 	return (0);
 }
