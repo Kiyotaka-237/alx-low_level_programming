@@ -16,8 +16,14 @@ int main(void)
 				if (n < i && i < j)
 				{
 					putchar(n);
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(k);
+
+					if (n != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
