@@ -17,7 +17,7 @@ int main(void)
 				{
 					putchar(n);
 					putchar(i);
-					putchar(k);
+					putchar(j);
 
 					if (n != '7')
 					{
