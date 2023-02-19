@@ -15,7 +15,7 @@ int main(void)
 			{
 				if (n < i && i < j)
 				{
-					putchar('n');
+					putchar(n);
 					putchar(',');
 					putchar(' ');
 				}
