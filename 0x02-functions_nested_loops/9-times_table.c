@@ -16,7 +16,7 @@ void times_table(void)
 		for (i = 0; i <= 9; i++)
 		{
 			printf("%2d, ", i * n);
-			if (i == 9)
+			if (i == 9 || i == 0)
 				printf("%2d", i * n);
 		}
 		printf("\n");
