@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 	char *str;
 	int n = 0;
-	
+
 	str = s;
 	while (*s++ != '\0')
 	{
