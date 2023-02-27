@@ -10,7 +10,7 @@
 void print_rev(char *s)
 {
 	int n;
-	char str;
+	char *str;
 
 	str = s;
 	n = _strlen(s);
