@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 
 /**
  * is_palindrome - pal
@@ -8,7 +8,6 @@
  */
 int is_palindrome(char *s)
 {
-	int len = 0, track = 0;
 	char *p = s, *q = s;
 
 	while (*p != '\0')
