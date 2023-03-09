@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _puts_recursion - what ever
  *
  * @s: shdei
@@ -16,6 +16,6 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		_putchar('\n");
+		_putchar('\n');
 	}
 }
